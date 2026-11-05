@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "runtime-debug",
-  "version": "0.1.0+candidate.2",
+  "version": "0.1.1-rc.1",
   "description": "使用运行证据与用户验证定位根因的本地调试插件",
   "extensions": {
     "com.openai": {
