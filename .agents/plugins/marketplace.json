@@ -1,0 +1,20 @@
+{
+  "name": "runtime-debug-marketplace",
+  "interface": {
+    "displayName": "Runtime Debug"
+  },
+  "plugins": [
+    {
+      "name": "runtime-debug",
+      "source": {
+        "source": "local",
+        "path": "./plugins/runtime-debug"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

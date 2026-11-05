@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "runtime-debug",
+  "version": "0.1.0+candidate.2",
+  "description": "使用运行证据与用户验证定位根因的本地调试插件",
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "Runtime Debug",
+        "shortDescription": "用运行证据定位根因",
+        "longDescription": "为 JS/TS、Node 和 Python 提供假设、日志探针、复现、修复验证及安全清理闭环。",
+        "developerName": "Personal",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": "使用 Runtime Debug 调查当前问题，先收集运行证据，再修复并验证。"
+      }
+    }
+  }
+}

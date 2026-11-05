@@ -1,0 +1,6 @@
+interface:
+  display_name: "Runtime Debug"
+  short_description: "用运行证据定位根因"
+  default_prompt: "调查问题，提出假设并收集运行证据，然后修复、验证和清理。"
+policy:
+  allow_implicit_invocation: false

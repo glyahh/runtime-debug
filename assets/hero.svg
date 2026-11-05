@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="650" viewBox="0 0 1600 650" role="img" aria-labelledby="title desc">
+  <title id="title">Runtime Debug</title>
+  <desc id="desc">Evidence-driven debugging for Codex, from hypotheses and probes to verification.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a101d"/><stop offset="1" stop-color="#101d2c"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#60e6c5"/><stop offset="1" stop-color="#6baaff"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#33cdb5" stop-opacity=".2"/><stop offset="1" stop-color="#33cdb5" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M 48 0 L 0 0 0 48" fill="none" stroke="#b1d2d3" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="1600" height="650" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="650" rx="28" fill="url(#grid)"/>
+  <ellipse cx="1180" cy="315" rx="550" ry="370" fill="url(#glow)"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="92" y="88" width="226" height="38" rx="19" fill="#63dfc4" fill-opacity=".1" stroke="#63dfc4" stroke-opacity=".35"/>
+    <circle cx="115" cy="107" r="4" fill="#63dfc4"/>
+    <text x="130" y="113" font-size="17" font-weight="700" letter-spacing="1.6" fill="#8debd8">CODEX PLUGIN</text>
+    <text x="88" y="232" font-size="87" font-weight="750" letter-spacing="-3" fill="#f4f8fb">Runtime</text>
+    <text x="88" y="331" font-size="87" font-weight="750" letter-spacing="-3" fill="url(#accent)">Debug</text>
+    <text x="94" y="394" font-size="25" fill="#b9c9d4">Find the cause, not just the symptom.</text>
+    <text x="94" y="443" font-size="19" letter-spacing=".5" fill="#78909f">HYPOTHESIZE  /  OBSERVE  /  VERIFY</text>
+    <path d="M94 511 H188" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(865 111)" font-family="Consolas, 'Courier New', monospace">
+    <rect width="627" height="430" rx="22" fill="#101c29" stroke="#577080" stroke-opacity=".48"/>
+    <path d="M0 65 H627" stroke="#577080" stroke-opacity=".35"/>
+    <circle cx="32" cy="32" r="6" fill="#ff9b8d"/><circle cx="54" cy="32" r="6" fill="#eec97f"/><circle cx="76" cy="32" r="6" fill="#75dcc0"/>
+    <text x="115" y="39" font-size="16" letter-spacing="1" fill="#77909e">EVIDENCE / SESSION</text>
+    <path d="M59 120 V322" stroke="#3c5964" stroke-width="2"/>
+    <circle cx="59" cy="123" r="9" fill="#101c29" stroke="#75dfc5" stroke-width="3"/>
+    <circle cx="59" cy="220" r="9" fill="#101c29" stroke="#7bb9fc" stroke-width="3"/>
+    <circle cx="59" cy="317" r="9" fill="#101c29" stroke="#eac782" stroke-width="3"/>
+    <text x="93" y="119" font-size="14" letter-spacing="2" fill="#77dec4">01 / HYPOTHESIS</text>
+    <text x="93" y="150" font-size="21" fill="#dce8ec">Ask a testable question</text>
+    <text x="93" y="216" font-size="14" letter-spacing="2" fill="#87bbf9">02 / OBSERVATION</text>
+    <text x="93" y="247" font-size="21" fill="#dce8ec">Capture runtime evidence</text>
+    <text x="93" y="313" font-size="14" letter-spacing="2" fill="#e7c789">03 / VERIFICATION</text>
+    <text x="93" y="344" font-size="21" fill="#dce8ec">Reproduce, fix, and verify</text>
+    <rect x="93" y="378" width="158" height="25" rx="12.5" fill="#71dcbf" fill-opacity=".1"/>
+    <text x="107" y="395" font-size="12" letter-spacing="1" fill="#8fe9d3">LOCAL WORKFLOW</text>
+  </g>
+</svg>

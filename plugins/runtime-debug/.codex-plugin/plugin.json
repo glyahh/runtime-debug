@@ -1,0 +1,18 @@
+{
+  "name": "runtime-debug",
+  "version": "0.1.0+candidate.2",
+  "description": "Evidence-driven local debugging",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Runtime Debug",
+    "shortDescription": "用运行证据定位根因",
+    "longDescription": "本地运行时证据调试",
+    "developerName": "Personal",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "runtime-debug": {
+      "command": "node",
+      "args": [
+        "${PLUGIN_ROOT}/dist/server.mjs"
+      ],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}
